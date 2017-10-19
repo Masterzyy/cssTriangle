@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css小三角</title>
+    <style>
+        .zero {
+            width: 980px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .zero div {
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    /* 1/4小三角 */
+        /* 正三角 */
+        .one {
+            width: 0;
+            height: 0;
+            border-bottom: 40px solid red;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+        }
+        /* 倒三角 */
+        .two {
+            width: 0;
+            height: 0;
+            border-top: 40px solid blueviolet;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+        }
+        /* 右三角 */
+        .three {
+            width: 0;
+            height: 0;
+            border-left: 40px solid blue;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+        }
+        /* 左三角 */
+        .four {
+            width: 0;
+            height: 0;
+            border-right: 40px solid skyblue;
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+        }
+    /* 1/2小三角 */
+        /* 左下角三角形 */
+        .five{
+            width: 0;
+            height: 0;
+            border-bottom: 80px solid hotpink;
+            border-right: 80px solid transparent;
+        }
+        /* 左上角三角形 */
+        .six{
+            width: 0;
+            height: 0;
+            border-top: 80px solid rgb(11, 83, 165);
+            border-right: 80px solid transparent;
+        }
+        /* 右下角三角形 */
+        .seven{
+            width: 0;
+            height: 0;
+            border-bottom: 80px solid rgb(231, 77, 16);
+            border-left: 80px solid transparent;
+        }
+        /* 右上角三角形 */
+        .eight{
+            width: 0;
+            height: 0;
+            border-top: 80px solid rgb(209, 198, 39);
+            border-left: 80px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="zero">
+        <!-- 四种1/4小三角 -->
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+
+
+        <!-- 四种1/2小三角 -->
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="seven"></div>
+        <div class="eight"></div>
+    </div>
+</body>
+
+</html>
